@@ -1,0 +1,66 @@
+[
+{"type":"header","version":"5.2.0","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"baletani"},
+{"type":"table","name":"admins","database":"baletani","data":
+[
+{"id":"1","username":"Halimm","fullname":"bghalim","password":"$2y$10$qXRFuhfhH8HH5H3DCzO5pOhYf4lfh2RSzP1cU.dNkYHXFaVURFLgS","remember_token":"Lm0VIp8cBixQhGSsTyXZPmpGutwl48bYPxJB9IC8ROZWVYTJpqiYAwj8EmS7","created_at":"2023-06-13 05:28:41","updated_at":"2023-06-13 16:36:41"},
+{"id":"2","username":"Amirul","fullname":"Amirul Mukminin","password":"$2y$10$MM\/1457YJEg4rxoNBxKune3FOMrEX77iIO1my0iY6QprTMMYroh56","remember_token":"J2D4xLmOFR7JmwfsxphrGDcRsAzx6nfNKggHc9yNHkvR2uxATIJcNEbjmELK","created_at":"2023-06-13 05:41:07","updated_at":"2023-06-13 05:41:07"},
+{"id":"3","username":"admin@halim","fullname":"Halim","password":"$2y$10$seAxDCPWpKN1Z8PQUGAD\/u2J21TV5Ha8fEEmg0R5TDtozA\/auZDA6","remember_token":"ZiR1py83lBtF5bZWWCnLBSVrQpwSFUAx1dElggBlncHDcoay9hBJXaRIFa3g","created_at":"2023-06-13 06:03:20","updated_at":"2023-06-13 06:03:20"},
+{"id":"4","username":"Regina","fullname":"Regina Mesty","password":"$2y$10$E7Obb7QWnLNsKxtTcaU0n.jljGm\/DTIWvtwZo29EoWTXKBMLMaJZS","remember_token":"CGvqOQqo1wtbFGvdrO2qOEW0obnH2LOiCwUWrLKPEyZUlH0632gheBekWXNX","created_at":"2023-06-13 18:35:03","updated_at":"2023-06-13 18:35:03"},
+{"id":"5","username":"Admin","fullname":"Admin123","password":"$2y$10$qkGI8N6VCjwF7EtAfKPKre7FTCtiEexXE.ie89YoInNG5G5pbIyC6","remember_token":"PqZczueifBWTjuHxHYQ49nsvnog2huMycuKyw107fEMQKM39rwJJPsHeiBDP","created_at":"2023-06-15 03:18:28","updated_at":"2023-06-15 03:18:28"}
+]
+}
+,{"type":"table","name":"failed_jobs","database":"baletani","data":
+[
+
+]
+}
+,{"type":"table","name":"farmers","database":"baletani","data":
+[
+{"id":"1","nama":"Hallo","jeniskelamin":"pria","umur":"22","alamat":"Terusan","kontak":"1239839283","upah":"10000000000","foto":"usecase.jpg","created_at":"2023-06-13 14:08:52","updated_at":"2023-06-14 05:07:51"},
+{"id":"2","nama":"tes1","jeniskelamin":"pria","umur":"12","alamat":"vffft","kontak":"1222222222222222","upah":"100000000000000000","foto":"usecase.jpg","created_at":"2023-06-13 16:25:59","updated_at":"2023-06-14 04:08:56"},
+{"id":"3","nama":"Amirul","jeniskelamin":"pria","umur":"20","alamat":"Singaraja","kontak":"8777777777777","upah":"100000000000","foto":"usecase.jpg","created_at":"2023-06-14 04:27:18","updated_at":"2023-06-14 04:27:18"}
+]
+}
+,{"type":"table","name":"members","database":"baletani","data":
+[
+{"id":"1","nama":"test1","jeniskelamin":"pria","umur":"23","alamat":"Celeng","kontak":"123445555555","upah":"1000000000","status":"aktif","foto":"Screenshot 2023-03-09 020849.png","created_at":"2023-06-13 18:38:17","updated_at":"2023-06-13 18:38:17"},
+{"id":"2","nama":"Amirul","jeniskelamin":"pria","umur":"20","alamat":"Singaraja","kontak":"8776355355352","upah":"2000000000","status":"aktif","foto":"Screenshot 2022-10-10 213337.jpg","created_at":"2023-06-14 05:04:52","updated_at":"2023-06-14 05:04:52"},
+{"id":"3","nama":"testing","jeniskelamin":"wanita","umur":"22","alamat":"Sindang","kontak":"8626362636263","upah":"3500000000000","status":"aktif","foto":"Screenshot 2023-03-09 020549.png","created_at":"2023-06-14 05:05:33","updated_at":"2023-06-14 05:05:33"}
+]
+}
+,{"type":"table","name":"migrations","database":"baletani","data":
+[
+{"id":"1","migration":"2014_10_12_000000_create_users_table","batch":"1"},
+{"id":"2","migration":"2014_10_12_100000_create_password_resets_table","batch":"1"},
+{"id":"3","migration":"2019_08_19_000000_create_failed_jobs_table","batch":"1"},
+{"id":"4","migration":"2019_12_14_000001_create_personal_access_tokens_table","batch":"1"},
+{"id":"5","migration":"2023_05_25_021129_create_farmers_table","batch":"1"},
+{"id":"6","migration":"2023_05_25_021249_create_members_table","batch":"1"},
+{"id":"7","migration":"2023_05_25_021317_create_admins_table","batch":"1"},
+{"id":"8","migration":"2023_05_25_021344_create_rentals_table","batch":"1"}
+]
+}
+,{"type":"table","name":"password_resets","database":"baletani","data":
+[
+
+]
+}
+,{"type":"table","name":"personal_access_tokens","database":"baletani","data":
+[
+
+]
+}
+,{"type":"table","name":"rentals","database":"baletani","data":
+[
+{"id":"1","username":"Hallo","waktu":"2023-06-14 12:02:00","tujuan":"Bangkir","created_at":"2023-06-14 05:02:55","updated_at":"2023-06-14 05:02:55"},
+{"id":"2","username":"test1","waktu":"2023-06-11 17:08:00","tujuan":"Indramayu","created_at":"2023-06-14 05:03:30","updated_at":"2023-06-14 05:03:30"},
+{"id":"3","username":"Amirul","waktu":"2023-06-01 12:18:00","tujuan":"Singaraja","created_at":"2023-06-14 05:04:02","updated_at":"2023-06-14 05:04:02"}
+]
+}
+,{"type":"table","name":"users","database":"baletani","data":
+[
+
+]
+}
+]
